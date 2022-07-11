@@ -16,6 +16,7 @@ object App {
     case x :: xs  => x + sum(xs) // x is the head of the list that is the first element and xs is the tail i.e. remaining elements
   }
 
+
 //  def main(args: Array[String]): Unit = {
 //    if(args.size == 0){
 //      println("???")
