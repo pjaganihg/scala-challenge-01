@@ -1,6 +1,6 @@
 import scala.math.floor
 
-object App {
+object Challenge01 {
   def main(args: Array[String]): Unit = {
     if(args.size == 0){
       println("???")
@@ -17,15 +17,14 @@ object App {
   }
 
 
-//  def main(args: Array[String]): Unit = {
-//    if(args.size == 0){
-//      println("???")
-//    }else{
-//      val argsToInt = args.map(a => a.toInt)
-//      val sum = argsToInt.reduce((a,b) => a + b)
-//      println(sum)
-//    }
-//  }
+  //  def main(args: Array[String]): Unit = {
+  //    if(args.size == 0){
+  //      println("???")
+  //    }else{
+  //      val argsToInt = args.map(a => a.toInt)
+  //      val sum = argsToInt.reduce((a,b) => a + b)
+  //      println(sum)
+  //    }
+  //  }
+
 }
-
-
